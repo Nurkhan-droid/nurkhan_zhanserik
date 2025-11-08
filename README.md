@@ -1,1 +1,89 @@
-# nurkhan_zhanserik
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Invest in Kids</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      background: linear-gradient(120deg, #a0e6ff, #e8fff2);
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background: #fff;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      padding: 15px 0;
+      font-weight: bold;
+    }
+    h1 {
+      margin-top: 50px;
+      color: #00897b;
+    }
+    .courses {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin: 30px auto;
+      max-width: 900px;
+    }
+    .card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      width: 200px;
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    button {
+      background: #00bfa5;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 20px;
+      margin: 15px 10px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #009688;
+    }
+    footer {
+      margin-top: 40px;
+      padding: 15px;
+      background: #fff;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Invest in Kids – English & Language Center
+  </header>
+
+  <h1>Развиваем языки — открываем будущее 🌍</h1>
+  <p>Английский, арабский, русский и китайский для детей</p>
+
+  <div class="courses">
+    <div class="card">🇬🇧 <b>Английский язык</b><br>Общение, грамматика, Cambridge</div>
+    <div class="card">🇸🇦 <b>Арабский язык</b><br>Алфавит, культура, чтение Корана</div>
+    <div class="card">🇷🇺 <b>Русский язык</b><br>Речь, орфография, литература</div>
+    <div class="card">🇨🇳 <b>Китайский язык</b><br>Иероглифы, произношение, культура</div>
+  </div>
+
+  <div>
+    <button>Записаться</button>
+    <button>Контакты</button>
+  </div>
+
+  <footer>
+    © 2025 Invest in Kids. Все права защищены.
+  </footer>
+</body>
+</html>
